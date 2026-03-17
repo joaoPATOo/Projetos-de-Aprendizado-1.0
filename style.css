@@ -1,17 +1,34 @@
 .titulo-batman {
-  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 3px;
   border-bottom: 3px solid #f1c40f;
   display: inline-block;
   padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: azure;
 }
 
- h1.titulo-batman { font-size: 40px; }
- h2.titulo-batman { font-size: 32px; }
- h3.titulo-batman { font-size: 26px; }
- h4.titulo-batman { font-size: 20px; }
+h1.titulo-batman {
+  font-size: 40px;
+}
+h2.titulo-batman {
+  font-size: 32px;
+}
+h3.titulo-batman {
+  font-size: 26px;
+}
+h4.titulo-batman {
+  font-size: 20px;
+}
 
+.texto-batman {
+  color: azure;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px auto;
+  max-width: 800px;
+  display: block;
+}
 
 .secao-batman {
   background-color: #111;
@@ -23,20 +40,16 @@
 .tema-batman {
   background-color: #0d0d0d;
   color: #f1c40f;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
-.centralizado {
-  display: block;
-  margin: 25px auto;
-  text-align: center;
-}
- 
 .linha-batman {
   border: none;
   height: 3px;
   width: 60%;
   background-color: #f1c40f;
+  color: azure;
+  margin: 30px auto;
 }
 
 .img-batman {
